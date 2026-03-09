@@ -69,7 +69,9 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero
     "hero.subtitle": "Your Tropical Paradise in Costa Rica",
     "hero.location": "Esterillos Este, Puntarenas",
-    "hero.bookNow": "Book Now on Airbnb",
+    "hero.bookAirbnb": "Book on Airbnb",
+    "hero.bookBooking": "Book on Booking.com",
+    "hero.whatsapp": "Contact via WhatsApp",
     
     // About
     "about.title": "Welcome to Paradise",
