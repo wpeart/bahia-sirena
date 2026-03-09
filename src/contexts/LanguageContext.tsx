@@ -51,6 +51,8 @@ const translations: Record<Language, Record<string, string>> = {
     "cta.title": "¿Listo para tu Aventura Costarricense?",
     "cta.description": "Reserva tu estadía en Bahia Sirena hoy y crea recuerdos inolvidables en el paraíso.",
     "cta.bookAirbnb": "Reservar en Airbnb",
+    "cta.bookBooking": "Reservar en Booking.com",
+    "cta.whatsapp": "Contactar por WhatsApp",
     "cta.followInstagram": "Síguenos en Instagram",
     
     // Footer
