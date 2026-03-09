@@ -8,11 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+dist
 
 *.local
-
-# Development template (build generates the real one)
-/index.html
 
 # Editor directories and files
 .vscode/*
