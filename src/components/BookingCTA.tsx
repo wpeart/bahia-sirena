@@ -41,7 +41,7 @@ const BookingCTA = () => {
             className="w-full sm:w-auto shadow-strong"
             asChild
           >
-            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html?chal_t=1773034909359&force_referer=" target="_blank" rel="noopener noreferrer">
               {t("cta.bookBooking")}
             </a>
           </Button>
