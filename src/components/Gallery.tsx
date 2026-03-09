@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { useLanguage } from "@/contexts/LanguageContext";
 import poolDay from "@/assets/pool-day.jpeg";
 import poolNight from "@/assets/pool-night.jpeg";
 import poolSide from "@/assets/pool-side.jpeg";
@@ -11,6 +12,7 @@ import nightView from "@/assets/night-view.jpeg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const { t } = useLanguage();
 
   const images = [
     { src: poolDay, alt: "Pool area during daytime" },
@@ -28,10 +30,10 @@ const Gallery = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12 animate-in fade-in duration-700">
           <h2 className="text-4xl font-bold mb-4 text-foreground">
-            Explore Bahia Sirena
+            {t("gallery.title")}
           </h2>
           <p className="text-xl text-muted-foreground">
-            Take a visual tour of your tropical escape
+            {t("gallery.subtitle")}
           </p>
         </div>
 

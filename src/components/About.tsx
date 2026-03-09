@@ -1,21 +1,24 @@
 import { Users, Home, Bath } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
+  const { t } = useLanguage();
+
   const features = [
     {
       icon: Home,
-      title: "3 Bedrooms",
-      description: "Spacious and comfortable rooms"
+      titleKey: "about.bedrooms",
+      descKey: "about.bedroomsDesc"
     },
     {
       icon: Users,
-      title: "Up to 12 Guests",
-      description: "Perfect for families and groups"
+      titleKey: "about.guests",
+      descKey: "about.guestsDesc"
     },
     {
       icon: Bath,
-      title: "3 Full Bathrooms",
-      description: "Each bedroom with private bathroom"
+      titleKey: "about.bathrooms",
+      descKey: "about.bathroomsDesc"
     }
   ];
 
@@ -24,11 +27,10 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 animate-in fade-in duration-700">
           <h2 className="text-4xl font-bold mb-4 text-foreground">
-            Welcome to Paradise
+            {t("about.title")}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience the perfect blend of comfort and tropical beauty at Bahia Sirena. 
-            Our vacation home offers everything you need for an unforgettable Costa Rican getaway.
+            {t("about.description")}
           </p>
         </div>
 
@@ -42,8 +44,8 @@ const About = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                 <feature.icon className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-muted-foreground">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-2">{t(feature.titleKey)}</h3>
+              <p className="text-muted-foreground">{t(feature.descKey)}</p>
             </div>
           ))}
         </div>

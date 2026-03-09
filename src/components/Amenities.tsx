@@ -1,36 +1,39 @@
 import { Waves, Flame, Tv, UtensilsCrossed, Wind, Refrigerator } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Amenities = () => {
+  const { t } = useLanguage();
+
   const amenities = [
     {
       icon: Waves,
-      title: "Private Pool",
-      description: "Beautiful pool with children's area"
+      titleKey: "amenities.pool",
+      descKey: "amenities.poolDesc"
     },
     {
       icon: Flame,
-      title: "BBQ Area",
-      description: "Perfect for outdoor dining"
+      titleKey: "amenities.bbq",
+      descKey: "amenities.bbqDesc"
     },
     {
       icon: Tv,
-      title: "Social Area",
-      description: "Spacious area with TV and seating"
+      titleKey: "amenities.social",
+      descKey: "amenities.socialDesc"
     },
     {
       icon: UtensilsCrossed,
-      title: "Full Kitchen",
-      description: "Equipped with everything you need"
+      titleKey: "amenities.kitchen",
+      descKey: "amenities.kitchenDesc"
     },
     {
       icon: Refrigerator,
-      title: "Modern Appliances",
-      description: "Freezer and all cooking amenities"
+      titleKey: "amenities.appliances",
+      descKey: "amenities.appliancesDesc"
     },
     {
       icon: Wind,
-      title: "Tropical Setting",
-      description: "Surrounded by lush greenery"
+      titleKey: "amenities.tropical",
+      descKey: "amenities.tropicalDesc"
     }
   ];
 
@@ -39,10 +42,10 @@ const Amenities = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 animate-in fade-in duration-700">
           <h2 className="text-4xl font-bold mb-4 text-foreground">
-            Premium Amenities
+            {t("amenities.title")}
           </h2>
           <p className="text-xl text-muted-foreground">
-            Everything you need for a perfect vacation
+            {t("amenities.subtitle")}
           </p>
         </div>
 
@@ -59,8 +62,8 @@ const Amenities = () => {
                 </div>
               </div>
               <div>
-                <h3 className="font-semibold text-lg mb-1">{amenity.title}</h3>
-                <p className="text-muted-foreground text-sm">{amenity.description}</p>
+                <h3 className="font-semibold text-lg mb-1">{t(amenity.titleKey)}</h3>
+                <p className="text-muted-foreground text-sm">{t(amenity.descKey)}</p>
               </div>
             </div>
           ))}
