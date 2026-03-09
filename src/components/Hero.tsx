@@ -41,7 +41,7 @@ const Hero = () => {
             className="shadow-strong"
             asChild
           >
-            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html?chal_t=1773034909359&force_referer=" target="_blank" rel="noopener noreferrer">
               {t("hero.bookBooking")}
             </a>
           </Button>
