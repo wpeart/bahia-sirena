@@ -26,6 +26,12 @@ const translations: Record<Language, Record<string, string>> = {
     "about.guestsDesc": "Perfecto para familias y grupos",
     "about.bathrooms": "3 Baños Completos",
     "about.bathroomsDesc": "Cada habitación con baño privado",
+    "about.parking": "Estacionamiento Privado",
+    "about.parkingDesc": "Amplio espacio para varios vehículos",
+    "about.beach": "Cercanía a la Playa",
+    "about.beachDesc": "A solo 5 minutos de la Playa Bejuco",
+    "about.restaurant": "Cerca de Esterillos Town Center",
+    "about.restaurantDesc": "A 5 minutos de restaurantes, supermercados y tiendas de souvenirs.",
     
     // Gallery
     "gallery.title": "Galería de Fotos",
@@ -84,6 +90,12 @@ const translations: Record<Language, Record<string, string>> = {
     "about.guestsDesc": "Perfect for families and groups",
     "about.bathrooms": "3 Full Bathrooms",
     "about.bathroomsDesc": "Each bedroom with private bathroom",
+    "about.parking": "Private Parking",
+    "about.parkingDesc": "Spacious area for multiple vehicles",
+    "about.beach": "Beach Proximity",
+    "about.beachDesc": "Just 5 minutes from Bejuco Beach",
+    "about.restaurant": "Nearby Restaurants",
+    "about.restaurantDesc": "Just 5 minutes from restaurants, supermarkets, and souvenir shops",
     
     // Gallery
     "gallery.title": "Photo Gallery",

@@ -1,4 +1,4 @@
-import { Users, Home, Bath } from "lucide-react";
+import { Users, Home, Bath, ParkingCircle, Palmtree, Utensils } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
@@ -19,6 +19,21 @@ const About = () => {
       icon: Bath,
       titleKey: "about.bathrooms",
       descKey: "about.bathroomsDesc"
+    },
+    {
+      icon: ParkingCircle,
+      titleKey: "about.parking",
+      descKey: "about.parkingDesc"
+    },
+    {
+      icon: Palmtree,
+      titleKey: "about.beach",
+      descKey: "about.beachDesc"
+    },
+    {
+      icon:Utensils,
+      titleKey: "about.restaurant",
+      descKey: "about.restaurantDesc"
     }
   ];
 
