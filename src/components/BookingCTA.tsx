@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram } from "lucide-react";
+import { Instagram, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import exteriorSunset from "@/assets/exterior-sunset.jpeg";
 
