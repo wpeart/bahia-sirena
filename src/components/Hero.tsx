@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/pool-dramatic.jpeg";
 
 const Hero = () => {
