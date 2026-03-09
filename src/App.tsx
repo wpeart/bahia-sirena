@@ -9,13 +9,15 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const basename = import.meta.env.PROD ? '/bahia-sirena' : '/';
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <LanguageProvider>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/bahia-sirena">
+        <BrowserRouter basename={basename}>
           <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
