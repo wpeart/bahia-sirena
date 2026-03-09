@@ -13,7 +13,9 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero
     "hero.subtitle": "Tu Paraíso Tropical en Costa Rica",
     "hero.location": "Esterillos Este, Puntarenas",
-    "hero.bookNow": "Reservar en Airbnb",
+    "hero.bookAirbnb": "Reservar en Airbnb",
+    "hero.bookBooking": "Reservar en Booking.com",
+    "hero.whatsapp": "Contactar por WhatsApp",
     
     // About
     "about.title": "Bienvenidos al Paraíso",
