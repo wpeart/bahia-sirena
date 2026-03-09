@@ -37,6 +37,34 @@ const BookingCTA = () => {
           
           <Button 
             size="lg" 
+            variant="secondary"
+            className="w-full sm:w-auto shadow-strong"
+            asChild
+          >
+            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html" target="_blank" rel="noopener noreferrer">
+              {t("cta.bookBooking")}
+            </a>
+          </Button>
+          
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white"
+            asChild
+          >
+            <a 
+              href="https://wa.me/50688414845" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >
+              <MessageCircle className="h-5 w-5" />
+              {t("cta.whatsapp")}
+            </a>
+          </Button>
+          
+          <Button 
+            size="lg" 
             variant="outline"
             className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white"
             asChild

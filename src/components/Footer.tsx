@@ -27,15 +27,26 @@ const Footer = () => {
           
           <div>
             <h4 className="font-semibold mb-4">{t("footer.connect")}</h4>
-            <a 
-              href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-background/80 hover:text-background transition-colors"
-            >
-              <Instagram className="h-5 w-5" />
-              @bahia_sirena
-            </a>
+            <div className="space-y-3">
+              <a 
+                href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-background/80 hover:text-background transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+                @bahia_sirena
+              </a>
+              <a 
+                href="https://wa.me/50688414845"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-background/80 hover:text-background transition-colors"
+              >
+                <MessageCircle className="h-5 w-5" />
+                +506 8841 4845
+              </a>
+            </div>
           </div>
         </div>
         

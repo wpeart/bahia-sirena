@@ -107,6 +107,8 @@ const translations: Record<Language, Record<string, string>> = {
     "cta.title": "Ready for Your Costa Rican Adventure?",
     "cta.description": "Book your stay at Bahia Sirena today and create unforgettable memories in paradise.",
     "cta.bookAirbnb": "Book on Airbnb",
+    "cta.bookBooking": "Book on Booking.com",
+    "cta.whatsapp": "Contact via WhatsApp",
     "cta.followInstagram": "Follow on Instagram",
     
     // Footer
