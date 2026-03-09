@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/pool-dramatic.jpeg";
 
 const Hero = () => {
@@ -24,15 +25,43 @@ const Hero = () => {
         <p className="mb-8 text-lg text-white/90 drop-shadow-md animate-in fade-in duration-700 delay-300">
           {t("hero.location")}
         </p>
-        <Button 
-          size="lg" 
-          className="animate-in fade-in duration-700 delay-500 bg-primary hover:bg-primary/90 shadow-strong"
-          asChild
-        >
-          <a href="https://www.airbnb.com/l/2YZ74Hr2" target="_blank" rel="noopener noreferrer">
-            {t("hero.bookNow")}
-          </a>
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in duration-700 delay-500">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 shadow-strong"
+            asChild
+          >
+            <a href="https://www.airbnb.com/l/2YZ74Hr2" target="_blank" rel="noopener noreferrer">
+              {t("hero.bookAirbnb")}
+            </a>
+          </Button>
+          <Button 
+            size="lg" 
+            variant="secondary"
+            className="shadow-strong"
+            asChild
+          >
+            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html" target="_blank" rel="noopener noreferrer">
+              {t("hero.bookBooking")}
+            </a>
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white"
+            asChild
+          >
+            <a 
+              href="https://wa.me/50688414845" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >
+              <MessageCircle className="h-5 w-5" />
+              {t("hero.whatsapp")}
+            </a>
+          </Button>
+        </div>
       </div>
       
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

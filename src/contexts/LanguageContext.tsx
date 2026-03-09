@@ -13,7 +13,9 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero
     "hero.subtitle": "Tu Paraíso Tropical en Costa Rica",
     "hero.location": "Esterillos Este, Puntarenas",
-    "hero.bookNow": "Reservar en Airbnb",
+    "hero.bookAirbnb": "Reservar en Airbnb",
+    "hero.bookBooking": "Reservar en Booking.com",
+    "hero.whatsapp": "Contactar por WhatsApp",
     
     // About
     "about.title": "Bienvenidos al Paraíso",
@@ -49,6 +51,8 @@ const translations: Record<Language, Record<string, string>> = {
     "cta.title": "¿Listo para tu Aventura Costarricense?",
     "cta.description": "Reserva tu estadía en Bahia Sirena hoy y crea recuerdos inolvidables en el paraíso.",
     "cta.bookAirbnb": "Reservar en Airbnb",
+    "cta.bookBooking": "Reservar en Booking.com",
+    "cta.whatsapp": "Contactar por WhatsApp",
     "cta.followInstagram": "Síguenos en Instagram",
     
     // Footer
@@ -65,7 +69,9 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero
     "hero.subtitle": "Your Tropical Paradise in Costa Rica",
     "hero.location": "Esterillos Este, Puntarenas",
-    "hero.bookNow": "Book Now on Airbnb",
+    "hero.bookAirbnb": "Book on Airbnb",
+    "hero.bookBooking": "Book on Booking.com",
+    "hero.whatsapp": "Contact via WhatsApp",
     
     // About
     "about.title": "Welcome to Paradise",
@@ -101,6 +107,8 @@ const translations: Record<Language, Record<string, string>> = {
     "cta.title": "Ready for Your Costa Rican Adventure?",
     "cta.description": "Book your stay at Bahia Sirena today and create unforgettable memories in paradise.",
     "cta.bookAirbnb": "Book on Airbnb",
+    "cta.bookBooking": "Book on Booking.com",
+    "cta.whatsapp": "Contact via WhatsApp",
     "cta.followInstagram": "Follow on Instagram",
     
     // Footer
