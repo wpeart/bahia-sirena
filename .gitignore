@@ -11,6 +11,9 @@ node_modules
 
 *.local
 
+# Development template (build generates the real one)
+/index.html
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
