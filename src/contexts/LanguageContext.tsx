@@ -46,6 +46,8 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.appliancesDesc": "Congelador y todo para cocinar",
     "amenities.tropical": "Entorno Tropical",
     "amenities.tropicalDesc": "Rodeado de exuberante vegetación",
+    "amenities.wifi": "Wi-Fi Gratis",
+    "amenities.wifiDesc": "Conexión rápida y estable en toda la propiedad",
     
     // Booking CTA
     "cta.title": "¿Listo para tu Aventura Costarricense?",
@@ -102,6 +104,8 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.appliancesDesc": "Freezer and all cooking amenities",
     "amenities.tropical": "Tropical Setting",
     "amenities.tropicalDesc": "Surrounded by lush greenery",
+    "amenities.wifi": "Free Wi-Fi",
+    "amenities.wifiDesc": "Fast and reliable internet throughout the property",
     
     // Booking CTA
     "cta.title": "Ready for Your Costa Rican Adventure?",
