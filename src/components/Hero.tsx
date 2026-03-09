@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 import heroImage from "@/assets/pool-dramatic.jpeg";
 
 const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div 
@@ -16,10 +19,10 @@ const Hero = () => {
           Bahia Sirena
         </h1>
         <p className="mb-2 text-xl text-white drop-shadow-md md:text-2xl animate-in fade-in duration-700 delay-150">
-          Your Tropical Paradise in Costa Rica
+          {t("hero.subtitle")}
         </p>
         <p className="mb-8 text-lg text-white/90 drop-shadow-md animate-in fade-in duration-700 delay-300">
-          Esterillos Este, Puntarenas
+          {t("hero.location")}
         </p>
         <Button 
           size="lg" 
@@ -27,7 +30,7 @@ const Hero = () => {
           asChild
         >
           <a href="https://www.airbnb.com/l/2YZ74Hr2" target="_blank" rel="noopener noreferrer">
-            Book Now on Airbnb
+            {t("hero.bookNow")}
           </a>
         </Button>
       </div>

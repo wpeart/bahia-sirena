@@ -1,6 +1,9 @@
 import { Instagram } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+
   return (
     <footer className="bg-foreground text-background py-12 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -8,22 +11,22 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Bahia Sirena</h3>
             <p className="text-background/80">
-              Your tropical escape in Esterillos Este, Puntarenas, Costa Rica
+              {t("footer.tagline")}
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Quick Info</h4>
+            <h4 className="font-semibold mb-4">{t("footer.quickInfo")}</h4>
             <ul className="space-y-2 text-background/80">
-              <li>3 Bedrooms</li>
-              <li>Up to 12 Guests</li>
-              <li>3 Full Bathrooms</li>
-              <li>Private Pool</li>
+              <li>{t("footer.bedrooms")}</li>
+              <li>{t("footer.guests")}</li>
+              <li>{t("footer.bathrooms")}</li>
+              <li>{t("footer.pool")}</li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Connect</h4>
+            <h4 className="font-semibold mb-4">{t("footer.connect")}</h4>
             <a 
               href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr"
               target="_blank"
@@ -37,7 +40,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-background/20 pt-8 text-center text-background/60">
-          <p>&copy; {new Date().getFullYear()} Bahia Sirena. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Bahia Sirena. {t("footer.rights")}</p>
         </div>
       </div>
     </footer>
