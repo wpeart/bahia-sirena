@@ -1,4 +1,4 @@
-import { Waves, Flame, Tv, UtensilsCrossed, Wind, Refrigerator, Wifi } from "lucide-react";
+import { Waves, Flame, Tv, UtensilsCrossed, Wind, Refrigerator, Wifi, BedDouble } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Amenities = () => {
@@ -39,6 +39,11 @@ const Amenities = () => {
       icon: Wifi,
       titleKey: "amenities.wifi",
       descKey: "amenities.wifiDesc"
+    },
+    {
+      icon:BedDouble,
+      titleKey: "amenities.bedrooms",
+      descKey: "amenities.bedroomsDesc"
     }
   ];
 

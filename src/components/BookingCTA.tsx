@@ -8,7 +8,7 @@ const BookingCTA = () => {
 
   return (
     <section className="relative py-32 px-4 overflow-hidden">
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${exteriorSunset})` }}
       >
@@ -22,39 +22,46 @@ const BookingCTA = () => {
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-in fade-in duration-700 delay-150">
           {t("cta.description")}
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in duration-700 delay-300">
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             variant="secondary"
             className="w-full sm:w-auto shadow-strong"
             asChild
           >
-            <a href="https://www.airbnb.com/l/2YZ74Hr2" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.airbnb.com/l/2YZ74Hr2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t("cta.bookAirbnb")}
             </a>
           </Button>
-          
-          <Button 
-            size="lg" 
-            variant="secondary"
-            className="w-full sm:w-auto shadow-strong"
-            asChild
-          >
-            <a href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html?chal_t=1773034909359&force_referer=" target="_blank" rel="noopener noreferrer">
-              {t("cta.bookBooking")}
-            </a>
-          </Button>
-          
-          <Button 
-            size="lg" 
+
+          <Button
+            size="lg"
             variant="outline"
             className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white"
             asChild
           >
-            <a 
-              href="https://wa.me/50688414845" 
-              target="_blank" 
+            <a
+              href="https://www.booking.com/hotel/cr/hermosa-casa-en-esterillos-este-esterillos-este.html?chal_t=1773034909359&force_referer="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("cta.bookBooking")}
+            </a>
+          </Button>
+
+          <Button
+            size="lg"
+            className="w-full sm:w-auto bg-[#25D366] hover:bg-[#20BA5A] text-white border-0 shadow-strong"
+            asChild
+          >
+            <a
+              href="https://wa.me/50688414845"
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
             >
@@ -62,16 +69,16 @@ const BookingCTA = () => {
               {t("cta.whatsapp")}
             </a>
           </Button>
-          
-          <Button 
-            size="lg" 
+
+          <Button
+            size="lg"
             variant="outline"
             className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white"
             asChild
           >
-            <a 
-              href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr" 
-              target="_blank" 
+            <a
+              href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr"
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
             >

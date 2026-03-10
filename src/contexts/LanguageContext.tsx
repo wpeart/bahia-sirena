@@ -29,7 +29,7 @@ const translations: Record<Language, Record<string, string>> = {
     "about.parking": "Estacionamiento Privado",
     "about.parkingDesc": "Amplio espacio para varios vehículos",
     "about.beach": "Cercanía a la Playa",
-    "about.beachDesc": "A solo 5 minutos de la Playa Bejuco",
+    "about.beachDesc": "A solo 5 minutos de Playa Bejuco",
     "about.restaurant": "Cerca de Esterillos Town Center",
     "about.restaurantDesc": "A 5 minutos de restaurantes, supermercados y tiendas de souvenirs.",
     
@@ -54,6 +54,8 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.tropicalDesc": "Rodeado de exuberante vegetación",
     "amenities.wifi": "Wi-Fi Gratis",
     "amenities.wifiDesc": "Conexión rápida y estable en toda la propiedad",
+    "amenities.bedrooms": "Habitaciones",
+    "amenities.bedroomsDesc": "3 cómodas habitaciones espaciosas con A/C y baño privado.",
     
     // Booking CTA
     "cta.title": "¿Listo para tu Aventura Costarricense?",
@@ -118,6 +120,8 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.tropicalDesc": "Surrounded by lush greenery",
     "amenities.wifi": "Free Wi-Fi",
     "amenities.wifiDesc": "Fast and reliable internet throughout the property",
+    "amenities.bedrooms": "Bedrooms",
+    "amenities.bedroomsDesc": "3 comfortable spacious bedrooms with A/C and private bathroom.",
     
     // Booking CTA
     "cta.title": "Ready for Your Costa Rican Adventure?",
