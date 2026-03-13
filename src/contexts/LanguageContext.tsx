@@ -23,7 +23,7 @@ const translations: Record<Language, Record<string, string>> = {
       "Experimenta la combinación perfecta de comodidad y belleza tropical en Bahia Sirena. Nuestra casa vacacional ofrece todo lo que necesitas para una escapada inolvidable en Costa Rica.",
     "about.description2": "Disfrute en familia sin perder la privacidad.",
     "about.bedrooms": "3 Habitaciones",
-    "about.bedroomsDesc": "Espaciosas y cómodas habitaciones",
+    "about.bedroomsDesc": "Espaciosas habitaciones diseñadas para tu comodidad",
     "about.guests": "Hasta 12 Huéspedes",
     "about.guestsDesc": "Perfecto para familias y grupos",
     "about.bathrooms": "3 Baños Completos",
@@ -50,12 +50,14 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.bbq": "Área de BBQ",
     "amenities.bbqDesc": "Perfecta para cenas al aire libre",
     "amenities.social": "Área Social",
-    "amenities.socialDesc": "Amplio espacio con TV y asientos",
+    "amenities.socialDesc":
+      "Sala espaciosa equipada con TV y cómodos lugares para sentarse.",
     "amenities.kitchen": "Cocina Completa",
     "amenities.kitchenDesc":
       "Con todo lo necesario para tu estadía, además de enfriador, congelador y refrigeradora grande.",
     "amenities.appliances": "Electrodomésticos Modernos",
-    "amenities.appliancesDesc": "Congelador y todo para cocinar",
+    "amenities.appliancesDesc":
+      "Cocina completa con congelador y utensilios de cocina.",
     "amenities.tropical": "Entorno Tropical",
     "amenities.tropicalDesc": "Rodeado de exuberante vegetación",
     "amenities.wifi": "Wi-Fi Gratis",
@@ -63,7 +65,7 @@ const translations: Record<Language, Record<string, string>> = {
       "Internet satelital de alta velocidad, con conexión estable en toda la propiedad.",
     "amenities.bedrooms": "Habitaciones",
     "amenities.bedroomsDesc":
-      "3 cómodas habitaciones espaciosas con A/C y baño privado.",
+      "Habitaciones amplias y acogedoras, cada una con aire acondicionado y baño privado.",
 
     // Booking CTA
     "cta.title": "¿Listo para tu Aventura Costarricense?",
@@ -100,19 +102,20 @@ const translations: Record<Language, Record<string, string>> = {
     "about.description2":
       "Share special moments with your family without sacrificing privacy.",
     "about.bedrooms": "3 Bedrooms",
-    "about.bedroomsDesc": "Spacious and comfortable rooms",
+    "about.bedroomsDesc":
+      "Spacious, comfortable rooms created with your relaxation in mind.",
     "about.guests": "Up to 12 Guests",
-    "about.guestsDesc": "Perfect for families and groups",
+    "about.guestsDesc": "Perfect getaway for families and groups.",
     "about.bathrooms": "3 Full Bathrooms",
-    "about.bathroomsDesc": "Each bedroom with private bathroom",
+    "about.bathroomsDesc": "Private bathroom in every room.",
     "about.parking": "Private Parking",
     "about.parkingDesc":
       "Private, secure parking area accommodating over five vehicles.",
     "about.beach": "Beach Proximity",
-    "about.beachDesc": "Just 5 minutes from Bejuco Beach",
+    "about.beachDesc": "Located just 5 minutes away from Playa Bejuco.",
     "about.restaurant": "Nearby Restaurants",
     "about.restaurantDesc":
-      "Just 5 minutes from restaurants, supermarkets, and souvenir shops",
+      "Conveniently located just 5 minutes from restaurants, supermarkets, and souvenir stores.",
 
     // Gallery
     "gallery.title": "Photo Gallery",
@@ -122,24 +125,25 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.title": "Premium Amenities",
     "amenities.subtitle": "Everything you need for a perfect vacation",
     "amenities.pool": "Private Pool",
-    "amenities.poolDesc": "Beautiful pool with children's area",
+    "amenities.poolDesc": "Family-friendly pool with a children's area.",
     "amenities.bbq": "BBQ Area",
-    "amenities.bbqDesc": "Perfect for outdoor dining",
+    "amenities.bbqDesc": "A great spot for outdoor meals",
     "amenities.social": "Social Area",
-    "amenities.socialDesc": "Spacious area with TV and seating",
+    "amenities.socialDesc": "Large common area with TV and plenty of seating.",
     "amenities.kitchen": "Full Kitchen",
     "amenities.kitchenDesc":
       "Fully equipped for your stay, featuring a cooler, freezer, and a spacious refrigerator.",
     "amenities.appliances": "Modern Appliances",
-    "amenities.appliancesDesc": "Freezer and all cooking amenities",
+    "amenities.appliancesDesc":
+      "Well-equipped kitchen with freezer and cooking essentials.",
     "amenities.tropical": "Tropical Setting",
-    "amenities.tropicalDesc": "Surrounded by lush greenery",
+    "amenities.tropicalDesc": "Set amidst lush tropical greenery.",
     "amenities.wifi": "Free Wi-Fi",
     "amenities.wifiDesc":
       "Reliable high-speed satellite internet, with stable coverage across the entire property.",
     "amenities.bedrooms": "Bedrooms",
     "amenities.bedroomsDesc":
-      "3 comfortable spacious bedrooms with A/C and private bathroom.",
+      "Spacious and comfortable rooms, all featuring air conditioning and private bathrooms.",
 
     // Booking CTA
     "cta.title": "Ready for Your Costa Rican Adventure?",
