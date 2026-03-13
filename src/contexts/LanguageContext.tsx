@@ -16,10 +16,11 @@ const translations: Record<Language, Record<string, string>> = {
     "hero.bookAirbnb": "Reservar en Airbnb",
     "hero.bookBooking": "Reservar en Booking.com",
     "hero.whatsapp": "Contactar por WhatsApp",
-    
+
     // About
     "about.title": "Bienvenidos al Paraíso",
-    "about.description": "Experimenta la combinación perfecta de comodidad y belleza tropical en Bahia Sirena. Nuestra casa vacacional ofrece todo lo que necesitas para una escapada inolvidable en Costa Rica.",
+    "about.description":
+      "Experimenta la combinación perfecta de comodidad y belleza tropical en Bahia Sirena. Nuestra casa vacacional ofrece todo lo que necesitas para una escapada inolvidable en Costa Rica.",
     "about.bedrooms": "3 Habitaciones",
     "about.bedroomsDesc": "Espaciosas y cómodas habitaciones",
     "about.guests": "Hasta 12 Huéspedes",
@@ -27,19 +28,22 @@ const translations: Record<Language, Record<string, string>> = {
     "about.bathrooms": "3 Baños Completos",
     "about.bathroomsDesc": "Cada habitación con baño privado",
     "about.parking": "Estacionamiento Privado",
-    "about.parkingDesc": "Amplio espacio para varios vehículos",
+    "about.parkingDesc":
+      "Estacionamiento privado y seguro con espacio para más de cinco vehículos.",
     "about.beach": "Cercanía a la Playa",
     "about.beachDesc": "A solo 5 minutos de Playa Bejuco",
     "about.restaurant": "Cerca de Esterillos Town Center",
-    "about.restaurantDesc": "A 5 minutos de restaurantes, supermercados y tiendas de souvenirs.",
-    
+    "about.restaurantDesc":
+      "A 5 minutos de restaurantes, supermercados y tiendas de souvenirs.",
+
     // Gallery
     "gallery.title": "Galería de Fotos",
     "gallery.subtitle": "Descubre los hermosos espacios que te esperan",
-    
+
     // Amenities
     "amenities.title": "Amenidades Premium",
-    "amenities.subtitle": "Todo lo que necesitas para unas vacaciones perfectas",
+    "amenities.subtitle":
+      "Todo lo que necesitas para unas vacaciones perfectas",
     "amenities.pool": "Piscina Privada",
     "amenities.poolDesc": "Hermosa piscina con área infantil",
     "amenities.bbq": "Área de BBQ",
@@ -47,30 +51,35 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.social": "Área Social",
     "amenities.socialDesc": "Amplio espacio con TV y asientos",
     "amenities.kitchen": "Cocina Completa",
-    "amenities.kitchenDesc": "Equipada con todo lo necesario",
+    "amenities.kitchenDesc":
+      "Con todo lo necesario para tu estadía, además de enfriador, congelador y refrigeradora grande.",
     "amenities.appliances": "Electrodomésticos Modernos",
     "amenities.appliancesDesc": "Congelador y todo para cocinar",
     "amenities.tropical": "Entorno Tropical",
     "amenities.tropicalDesc": "Rodeado de exuberante vegetación",
     "amenities.wifi": "Wi-Fi Gratis",
-    "amenities.wifiDesc": "Conexión rápida y estable en toda la propiedad",
+    "amenities.wifiDesc":
+      "Internet satelital de alta velocidad, con conexión estable en toda la propiedad.",
     "amenities.bedrooms": "Habitaciones",
-    "amenities.bedroomsDesc": "3 cómodas habitaciones espaciosas con A/C y baño privado.",
-    
+    "amenities.bedroomsDesc":
+      "3 cómodas habitaciones espaciosas con A/C y baño privado.",
+
     // Booking CTA
     "cta.title": "¿Listo para tu Aventura Costarricense?",
-    "cta.description": "Reserva tu estadía en Bahia Sirena hoy y crea recuerdos inolvidables en el paraíso.",
+    "cta.description":
+      "Reserva tu estadía en Bahia Sirena hoy y crea recuerdos inolvidables en el paraíso.",
     "cta.bookAirbnb": "Reservar en Airbnb",
     "cta.bookBooking": "Reservar en Booking.com",
     "cta.whatsapp": "Contactar por WhatsApp",
     "cta.followInstagram": "Síguenos en Instagram",
-    
+
     // Footer
-    "footer.tagline": "Tu escape tropical en Esterillos Este, Puntarenas, Costa Rica",
+    "footer.tagline":
+      "Tu escape tropical en Esterillos Este, Puntarenas, Costa Rica",
     "footer.quickInfo": "Información Rápida",
     "footer.bedrooms": "3 Habitaciones",
     "footer.guests": "Hasta 12 Huéspedes",
-    "footer.bathrooms": "3 Baños Completos",
+    "footer.bathrooms": "3 ½ Baños",
     "footer.pool": "Piscina Privada",
     "footer.connect": "Conectar",
     "footer.rights": "Todos los derechos reservados.",
@@ -82,10 +91,11 @@ const translations: Record<Language, Record<string, string>> = {
     "hero.bookAirbnb": "Book on Airbnb",
     "hero.bookBooking": "Book on Booking.com",
     "hero.whatsapp": "Contact via WhatsApp",
-    
+
     // About
     "about.title": "Welcome to Paradise",
-    "about.description": "Experience the perfect blend of comfort and tropical beauty at Bahia Sirena. Our vacation home offers everything you need for an unforgettable Costa Rican getaway.",
+    "about.description":
+      "Experience the perfect blend of comfort and tropical beauty at Bahia Sirena. Our vacation home offers everything you need for an unforgettable Costa Rican getaway.",
     "about.bedrooms": "3 Bedrooms",
     "about.bedroomsDesc": "Spacious and comfortable rooms",
     "about.guests": "Up to 12 Guests",
@@ -93,16 +103,18 @@ const translations: Record<Language, Record<string, string>> = {
     "about.bathrooms": "3 Full Bathrooms",
     "about.bathroomsDesc": "Each bedroom with private bathroom",
     "about.parking": "Private Parking",
-    "about.parkingDesc": "Spacious area for multiple vehicles",
+    "about.parkingDesc":
+      "Private, secure parking area accommodating over five vehicles.",
     "about.beach": "Beach Proximity",
     "about.beachDesc": "Just 5 minutes from Bejuco Beach",
     "about.restaurant": "Nearby Restaurants",
-    "about.restaurantDesc": "Just 5 minutes from restaurants, supermarkets, and souvenir shops",
-    
+    "about.restaurantDesc":
+      "Just 5 minutes from restaurants, supermarkets, and souvenir shops",
+
     // Gallery
     "gallery.title": "Photo Gallery",
     "gallery.subtitle": "Discover the beautiful spaces awaiting you",
-    
+
     // Amenities
     "amenities.title": "Premium Amenities",
     "amenities.subtitle": "Everything you need for a perfect vacation",
@@ -113,37 +125,44 @@ const translations: Record<Language, Record<string, string>> = {
     "amenities.social": "Social Area",
     "amenities.socialDesc": "Spacious area with TV and seating",
     "amenities.kitchen": "Full Kitchen",
-    "amenities.kitchenDesc": "Equipped with everything you need",
+    "amenities.kitchenDesc":
+      "Fully equipped for your stay, featuring a cooler, freezer, and a spacious refrigerator.",
     "amenities.appliances": "Modern Appliances",
     "amenities.appliancesDesc": "Freezer and all cooking amenities",
     "amenities.tropical": "Tropical Setting",
     "amenities.tropicalDesc": "Surrounded by lush greenery",
     "amenities.wifi": "Free Wi-Fi",
-    "amenities.wifiDesc": "Fast and reliable internet throughout the property",
+    "amenities.wifiDesc":
+      "Reliable high-speed satellite internet, with stable coverage across the entire property.",
     "amenities.bedrooms": "Bedrooms",
-    "amenities.bedroomsDesc": "3 comfortable spacious bedrooms with A/C and private bathroom.",
-    
+    "amenities.bedroomsDesc":
+      "3 comfortable spacious bedrooms with A/C and private bathroom.",
+
     // Booking CTA
     "cta.title": "Ready for Your Costa Rican Adventure?",
-    "cta.description": "Book your stay at Bahia Sirena today and create unforgettable memories in paradise.",
+    "cta.description":
+      "Book your stay at Bahia Sirena today and create unforgettable memories in paradise.",
     "cta.bookAirbnb": "Book on Airbnb",
     "cta.bookBooking": "Book on Booking.com",
     "cta.whatsapp": "Contact via WhatsApp",
     "cta.followInstagram": "Follow on Instagram",
-    
+
     // Footer
-    "footer.tagline": "Your tropical escape in Esterillos Este, Puntarenas, Costa Rica",
+    "footer.tagline":
+      "Your tropical escape in Esterillos Este, Puntarenas, Costa Rica",
     "footer.quickInfo": "Quick Info",
     "footer.bedrooms": "3 Bedrooms",
     "footer.guests": "Up to 12 Guests",
-    "footer.bathrooms": "3 Full Bathrooms",
+    "footer.bathrooms": "3 ½ Bathrooms",
     "footer.pool": "Private Pool",
     "footer.connect": "Connect",
     "footer.rights": "All rights reserved.",
   },
 };
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const LanguageContext = createContext<LanguageContextType | undefined>(
+  undefined,
+);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState<Language>("es");

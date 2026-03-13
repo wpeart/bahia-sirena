@@ -10,11 +10,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">Bahia Sirena</h3>
-            <p className="text-background/80">
-              {t("footer.tagline")}
-            </p>
+            <p className="text-background/80">{t("footer.tagline")}</p>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4">{t("footer.quickInfo")}</h4>
             <ul className="space-y-2 text-background/80">
@@ -24,11 +22,11 @@ const Footer = () => {
               <li>{t("footer.pool")}</li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4">{t("footer.connect")}</h4>
             <div className="space-y-3">
-              <a 
+              <a
                 href="https://www.instagram.com/bahia_sirena?igsh=MTdqbTUwOXlwamdy&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,7 +35,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
                 @bahia_sirena
               </a>
-              <a 
+              <a
                 href="https://wa.me/50688414845"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,12 +44,23 @@ const Footer = () => {
                 <MessageCircle className="h-5 w-5" />
                 +506 8841 4845
               </a>
+              <a
+                href="https://wa.me/50670712126"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-background/80 hover:text-background transition-colors"
+              >
+                <MessageCircle className="h-5 w-5" />
+                +506 7071 2126
+              </a>
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-background/20 pt-8 text-center text-background/60">
-          <p>&copy; {new Date().getFullYear()} Bahia Sirena. {t("footer.rights")}</p>
+          <p>
+            &copy; {new Date().getFullYear()} Bahia Sirena. {t("footer.rights")}
+          </p>
         </div>
       </div>
     </footer>
