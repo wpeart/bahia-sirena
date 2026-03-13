@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { MessageCircle } from "lucide-react";
 //import heroImage from "@/assets/pool-dramatic.jpeg";
-import heroImage from "@/assets/background-light.jpg";
+import heroImage from "@/assets/background-light-temp.jpg";
 
 const Hero = () => {
   const { t } = useLanguage();
