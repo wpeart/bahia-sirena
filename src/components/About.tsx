@@ -1,4 +1,11 @@
-import { Users, Home, Bath, ParkingCircle, Palmtree, Utensils } from "lucide-react";
+import {
+  Users,
+  Home,
+  Bath,
+  ParkingCircle,
+  Palmtree,
+  Utensils,
+} from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
@@ -8,33 +15,33 @@ const About = () => {
     {
       icon: Home,
       titleKey: "about.bedrooms",
-      descKey: "about.bedroomsDesc"
+      descKey: "about.bedroomsDesc",
     },
     {
       icon: Users,
       titleKey: "about.guests",
-      descKey: "about.guestsDesc"
+      descKey: "about.guestsDesc",
     },
     {
       icon: Bath,
       titleKey: "about.bathrooms",
-      descKey: "about.bathroomsDesc"
+      descKey: "about.bathroomsDesc",
     },
     {
       icon: ParkingCircle,
       titleKey: "about.parking",
-      descKey: "about.parkingDesc"
+      descKey: "about.parkingDesc",
     },
     {
       icon: Palmtree,
       titleKey: "about.beach",
-      descKey: "about.beachDesc"
+      descKey: "about.beachDesc",
     },
     {
-      icon:Utensils,
+      icon: Utensils,
       titleKey: "about.restaurant",
-      descKey: "about.restaurantDesc"
-    }
+      descKey: "about.restaurantDesc",
+    },
   ];
 
   return (
@@ -47,11 +54,14 @@ const About = () => {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             {t("about.description")}
           </p>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mt-4">
+            {t("about.description2")}
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={index}
               className="text-center p-6 rounded-xl bg-card shadow-soft hover:shadow-strong transition-all duration-300 animate-in fade-in duration-700"
               style={{ animationDelay: `${index * 150}ms` }}
@@ -59,7 +69,9 @@ const About = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                 <feature.icon className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">{t(feature.titleKey)}</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                {t(feature.titleKey)}
+              </h3>
               <p className="text-muted-foreground">{t(feature.descKey)}</p>
             </div>
           ))}

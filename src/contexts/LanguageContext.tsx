@@ -21,6 +21,7 @@ const translations: Record<Language, Record<string, string>> = {
     "about.title": "Bienvenidos al Paraíso",
     "about.description":
       "Experimenta la combinación perfecta de comodidad y belleza tropical en Bahia Sirena. Nuestra casa vacacional ofrece todo lo que necesitas para una escapada inolvidable en Costa Rica.",
+    "about.description2": "Disfrute en familia sin perder la privacidad.",
     "about.bedrooms": "3 Habitaciones",
     "about.bedroomsDesc": "Espaciosas y cómodas habitaciones",
     "about.guests": "Hasta 12 Huéspedes",
@@ -96,6 +97,8 @@ const translations: Record<Language, Record<string, string>> = {
     "about.title": "Welcome to Paradise",
     "about.description":
       "Experience the perfect blend of comfort and tropical beauty at Bahia Sirena. Our vacation home offers everything you need for an unforgettable Costa Rican getaway.",
+    "about.description2":
+      "Share special moments with your family without sacrificing privacy.",
     "about.bedrooms": "3 Bedrooms",
     "about.bedroomsDesc": "Spacious and comfortable rooms",
     "about.guests": "Up to 12 Guests",
